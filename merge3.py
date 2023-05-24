@@ -21,4 +21,4 @@ for i, path in enumerate(l):
         merge3 = pd.merge(mearge3, pay_df, how='outer',on='주문번호')
 
         
-merge3.to_csv(r'/Users/Ahn/2023/Project/SQL/안현주_merge3.csv',index=False)  # csv파일로 저장
+merge3.to_csv(r'/Users/Ahn/2023/Project/SQL/merge3.csv',index=False)  # csv파일로 저장
